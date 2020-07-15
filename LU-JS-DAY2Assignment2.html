@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <h1>LU-JAVASCRIPT DAY2 - ASSIGNMENT 2-String and Array methods </h1>
+    </head>
+    <body>
+        <p>Remaining String Functions : includes(): checks whether the given value is present in given string or not
+          
+         <p>repeat(): repeats your string no of times mentioned</p>
+
+         <p>slice(): extracts a part of string and returns new String</p> 
+
+        <p>splits(): splits your string </p>
+
+         <p>replace(): replace the current word in the string with new word </p>
+
+         <p>trim():Removes whitespace from both ends of a string</p>
+        </p>
+        <script>
+            var value = "Hey Lets Upgraders";
+            console.log(value);
+            console.log(value.toLowerCase());
+            console.log(value.toUpperCase());
+            console.log(value[3]);
+            console.log(value.indexOf('s'));
+            console.log(value.lastIndexOf('s'));
+            console.log(value.charAt('7'));
+            console.log(value.endsWith('Lets'))
+            console.log(value.includes('Hey'))
+            console.log(value.repeat(2));
+            console.log(value.slice(2,5));
+            console.log(value.split(' '))
+            console.log(value.replace('Hey','Hiiiii'));
+            console.log(value.trim());
+        </script>
+
+        <p>Array Functions : concat(): Appends two arrays</p>
+        <p>reverse(): reverse the array</p>
+        <p>sort(): sorts the array</p>
+        <p>pop(): deletes the given value</p>
+        <p>push(): inserts a new value</p>
+        
+        <script>
+            var arr1 = ['BMW','AUDI','COOPER','BENZ','JAGUAR']
+            var arr2 = ['Hyndai', 'Suzuki','Yamaha']
+            console.log(arr1.concat(arr2));
+            console.log(arr1.reverse())
+            console.log(arr1.unshift('BMW'));
+            console.log(arr1.push('ferrari'));
+            console.log(arr1.pop('JAGUAR'));
+            console.log(arr1.slice(1,3));
+            console.log(arr1.sort());
+
+
+        </script>
+    </body>
+</html>
